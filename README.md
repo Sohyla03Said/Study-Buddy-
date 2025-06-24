@@ -1,0 +1,2 @@
+# Study-Buddy-
+Educational application 
