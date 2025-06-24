@@ -1,0 +1,88 @@
+2025-06-23 23:38:05,471 - DEBUG - loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+2025-06-23 23:38:05,472 - DEBUG - loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+2025-06-23 23:38:05,472 - DEBUG - loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+2025-06-23 23:38:05,585 - DEBUG - registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+2025-06-23 23:38:05,594 - DEBUG - Checking model path: E:\eduo\models/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+2025-06-23 23:38:05,594 - DEBUG - Loading model...
+2025-06-23 23:38:05,641 - DEBUG - [1750711085.6414897] Memory usage before model load: 100.82 MB
+2025-06-23 23:38:08,040 - DEBUG - Initializing HuggingFaceEmbeddings with sentence-transformers
+2025-06-23 23:38:22,033 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-23 23:38:22,033 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-23 23:38:22,527 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-06-23 23:38:22,533 - DEBUG - Attempting to acquire lock 2116895946880 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\952a9b81c0bfd99800fabf352f69c7ccd46c5e43.lock
+2025-06-23 23:38:22,535 - DEBUG - Lock 2116895946880 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\952a9b81c0bfd99800fabf352f69c7ccd46c5e43.lock
+2025-06-23 23:38:22,693 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 349
+2025-06-23 23:38:22,704 - DEBUG - Attempting to release lock 2116895946880 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\952a9b81c0bfd99800fabf352f69c7ccd46c5e43.lock
+2025-06-23 23:38:22,705 - DEBUG - Lock 2116895946880 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\952a9b81c0bfd99800fabf352f69c7ccd46c5e43.lock
+2025-06-23 23:38:22,854 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-06-23 23:38:22,863 - DEBUG - Attempting to acquire lock 2116895946736 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fd1b291129c607e5d49799f87cb219b27f98acdf.lock
+2025-06-23 23:38:22,864 - DEBUG - Lock 2116895946736 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fd1b291129c607e5d49799f87cb219b27f98acdf.lock
+2025-06-23 23:38:23,017 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 116
+2025-06-23 23:38:23,021 - DEBUG - Attempting to release lock 2116895946736 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fd1b291129c607e5d49799f87cb219b27f98acdf.lock
+2025-06-23 23:38:23,022 - DEBUG - Lock 2116895946736 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fd1b291129c607e5d49799f87cb219b27f98acdf.lock
+2025-06-23 23:38:23,179 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-06-23 23:38:23,181 - DEBUG - Attempting to acquire lock 2116896212016 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\58d4a9a45664eb9e12de9549c548c09b6134c17f.lock
+2025-06-23 23:38:23,182 - DEBUG - Lock 2116896212016 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\58d4a9a45664eb9e12de9549c548c09b6134c17f.lock
+2025-06-23 23:38:23,679 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 10454
+2025-06-23 23:38:23,682 - DEBUG - Attempting to release lock 2116896212016 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\58d4a9a45664eb9e12de9549c548c09b6134c17f.lock
+2025-06-23 23:38:23,683 - DEBUG - Lock 2116896212016 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\58d4a9a45664eb9e12de9549c548c09b6134c17f.lock
+2025-06-23 23:38:23,846 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-06-23 23:38:24,002 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-06-23 23:38:24,004 - DEBUG - Attempting to acquire lock 2116896214224 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\59d594003bf59880a884c574bf88ef7555bb0202.lock
+2025-06-23 23:38:24,004 - DEBUG - Lock 2116896214224 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\59d594003bf59880a884c574bf88ef7555bb0202.lock
+2025-06-23 23:38:24,154 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 53
+2025-06-23 23:38:24,157 - DEBUG - Attempting to release lock 2116896214224 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\59d594003bf59880a884c574bf88ef7555bb0202.lock
+2025-06-23 23:38:24,157 - DEBUG - Lock 2116896214224 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\59d594003bf59880a884c574bf88ef7555bb0202.lock
+2025-06-23 23:38:24,312 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-06-23 23:38:24,314 - DEBUG - Attempting to acquire lock 2116896212304 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\72b987fd805cfa2b58c4c8c952b274a11bfd5a00.lock
+2025-06-23 23:38:24,315 - DEBUG - Lock 2116896212304 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\72b987fd805cfa2b58c4c8c952b274a11bfd5a00.lock
+2025-06-23 23:38:24,467 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 612
+2025-06-23 23:38:24,471 - DEBUG - Attempting to release lock 2116896212304 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\72b987fd805cfa2b58c4c8c952b274a11bfd5a00.lock
+2025-06-23 23:38:24,472 - DEBUG - Lock 2116896212304 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\72b987fd805cfa2b58c4c8c952b274a11bfd5a00.lock
+2025-06-23 23:38:27,788 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors HTTP/1.1" 302 0
+2025-06-23 23:38:27,791 - DEBUG - Attempting to acquire lock 2116900068016 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db.lock
+2025-06-23 23:38:27,792 - DEBUG - Lock 2116900068016 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db.lock
+2025-06-23 23:38:27,793 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-06-23 23:38:28,035 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors HTTP/1.1" 302 1325
+2025-06-23 23:38:28,037 - DEBUG - Starting new HTTPS connection (1): cas-bridge.xethub.hf.co:443
+2025-06-23 23:38:29,242 - DEBUG - https://cas-bridge.xethub.hf.co:443 "GET /xet-bridge-us/621ffdc136468d709f180294/789fdf16a3e59f4fbfb6002967ecee539a198dadb5be74ca549aa7dc9b1b55fb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20250623%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250623T201819Z&X-Amz-Expires=3600&X-Amz-Signature=ba603f52e8fdc60b6c009d96020bfbaf6365fc5d5feec452367e3464b706118f&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&x-id=GetObject&Expires=1750713499&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MDcxMzQ5OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82MjFmZmRjMTM2NDY4ZDcwOWYxODAyOTQvNzg5ZmRmMTZhM2U1OWY0ZmJmYjYwMDI5NjdlY2VlNTM5YTE5OGRhZGI1YmU3NGNhNTQ5YWE3ZGM5YjFiNTVmYioifV19&Signature=kVU0hAsTci2ofem7oSwpePIj5q3N3rnx7GxygZzA4pLJys4fH9~25VSUze7zxCRLx75HkWghAQcrpR4qoP1Dtg038cBvBxZYlzSCuLc9-XkCbI2CRJ0~16tWd6bn~qdbKXJaWPf~thnThaIBzra-MN5bXxwXBmcaGXIqt6keOQF9IhUoQHYHuBMMbqkSJUH1TFgIj-i6~9h3~EmSxrKhphe~RS6KolzritsvaiTKdXX3b52WZ0Xgb2IcrlxQozcOtvJZiMvi8S1MvBrj7iPUm3iChOqwJ4GmHmLaYDZXQcboh7Jlx36nSiD8Ga68Pq9mj4j4mAdqt3rzoPpQuPoS1w__&Key-Pair-Id=K2L8F4GPSG1IFC HTTP/1.1" 200 90868376
+2025-06-23 23:39:07,081 - DEBUG - Attempting to release lock 2116900068016 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db.lock
+2025-06-23 23:39:07,082 - DEBUG - Lock 2116900068016 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db.lock
+2025-06-23 23:39:07,717 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-06-23 23:39:07,719 - DEBUG - Attempting to acquire lock 2116896214512 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\c79f2b6a0cea6f4b564fed1938984bace9d30ff0.lock
+2025-06-23 23:39:07,720 - DEBUG - Lock 2116896214512 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\c79f2b6a0cea6f4b564fed1938984bace9d30ff0.lock
+2025-06-23 23:39:07,889 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 350
+2025-06-23 23:39:07,893 - DEBUG - Attempting to release lock 2116896214512 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\c79f2b6a0cea6f4b564fed1938984bace9d30ff0.lock
+2025-06-23 23:39:07,893 - DEBUG - Lock 2116896214512 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\c79f2b6a0cea6f4b564fed1938984bace9d30ff0.lock
+2025-06-23 23:39:08,050 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-06-23 23:39:08,211 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/vocab.txt HTTP/1.1" 200 0
+2025-06-23 23:39:08,213 - DEBUG - Attempting to acquire lock 2116961650912 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-06-23 23:39:08,213 - DEBUG - Lock 2116961650912 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-06-23 23:39:08,386 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/vocab.txt HTTP/1.1" 200 231508
+2025-06-23 23:39:08,618 - DEBUG - Attempting to release lock 2116961650912 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-06-23 23:39:08,619 - DEBUG - Lock 2116961650912 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-06-23 23:39:08,774 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer.json HTTP/1.1" 200 0
+2025-06-23 23:39:08,776 - DEBUG - Attempting to acquire lock 2116961650720 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\cb202bfe2e3c98645018a6d12f182a434c9d3e02.lock
+2025-06-23 23:39:08,776 - DEBUG - Lock 2116961650720 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\cb202bfe2e3c98645018a6d12f182a434c9d3e02.lock
+2025-06-23 23:39:08,927 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer.json HTTP/1.1" 200 466247
+2025-06-23 23:39:09,405 - DEBUG - Attempting to release lock 2116961650720 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\cb202bfe2e3c98645018a6d12f182a434c9d3e02.lock
+2025-06-23 23:39:09,409 - DEBUG - Lock 2116961650720 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\cb202bfe2e3c98645018a6d12f182a434c9d3e02.lock
+2025-06-23 23:39:09,563 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2025-06-23 23:39:09,714 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2025-06-23 23:39:09,717 - DEBUG - Attempting to acquire lock 2116961650912 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-06-23 23:39:09,717 - DEBUG - Lock 2116961650912 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-06-23 23:39:09,871 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/main/special_tokens_map.json HTTP/1.1" 200 112
+2025-06-23 23:39:09,875 - DEBUG - Attempting to release lock 2116961650912 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-06-23 23:39:09,875 - DEBUG - Lock 2116961650912 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-06-23 23:39:10,027 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/chat_template.jinja HTTP/1.1" 404 0
+2025-06-23 23:39:10,242 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6856
+2025-06-23 23:39:10,248 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-06-23 23:39:10,425 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling/config.json HTTP/1.1" 200 0
+2025-06-23 23:39:10,427 - DEBUG - Attempting to acquire lock 2116961660272 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\d1514c3162bbe87b343f565fadc62e6c06f04f03.lock
+2025-06-23 23:39:10,427 - DEBUG - Lock 2116961660272 acquired on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\d1514c3162bbe87b343f565fadc62e6c06f04f03.lock
+2025-06-23 23:39:10,575 - DEBUG - https://huggingface.co:443 "GET /sentence-transformers/all-MiniLM-L6-v2/resolve/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling/config.json HTTP/1.1" 200 190
+2025-06-23 23:39:10,578 - DEBUG - Attempting to release lock 2116961660272 on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\d1514c3162bbe87b343f565fadc62e6c06f04f03.lock
+2025-06-23 23:39:10,579 - DEBUG - Lock 2116961660272 released on E:\eduo\embedding_cache\.locks\models--sentence-transformers--all-MiniLM-L6-v2\d1514c3162bbe87b343f565fadc62e6c06f04f03.lock
+2025-06-23 23:39:10,589 - DEBUG - [1750711150.589352] Memory usage after model load: 395.62 MB
+2025-06-23 23:39:10,589 - INFO - Model and embeddings loaded successfully!
+2025-06-23 23:39:10,618 - DEBUG - Using proactor: IocpProactor
